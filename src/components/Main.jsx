@@ -74,8 +74,8 @@ const Main = () => {
     });
   };
   return (
-    <div className="w-full h-screen flex flex-wrap">
-      <div className="text-white text-3xl w-1/5 bg-stone-700 text-center p-5">Mayka</div>
+    <div className="w-full flex ">
+      <div className="text-white text-[2rem] w-1/5 bg-stone-700 text-center p-5 break-words">Mayka</div>
       <div className=" w-3/5  bg-zinc-900 flex flex-wrap gap-5 p-5 justify-center" ref={ref}>
         {data.map((ele) => (
           <motion.div
@@ -114,7 +114,7 @@ const Main = () => {
           </motion.div>
         ))}
       </div>
-      <div className="text-white text-3xl w-1/5 bg-stone-700 text-center p-5">Sasural</div>
+      <div className="text-white text-[2rem] w-1/5 bg-stone-700 text-center p-5 break-words">Sasural</div>
     </div>
   );
 };
